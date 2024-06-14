@@ -4,7 +4,7 @@ import { Authorization } from '../middlewares/authorization.js';
 
 const router = Router()
 
-router.post("/", async (req, res) => {
+router.get("/", async (req, res) => {
     res.json(cases)
 
 })
